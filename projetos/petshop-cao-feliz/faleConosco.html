@@ -26,7 +26,41 @@
             </div>
         </header>
         <main>
-            Nova página
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" class="input-text">
+
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" class="input-text">
+
+                <label for="fone">Fone:</label>
+                <input type="text" id="fone" class="input-text">
+
+                <label for="message">Mensagem:</label>
+                <textarea cols="70" rows="10" id="message" class="input-text"></textarea>
+
+                <div>
+                    <p>Como podemos entrar em contato?</p> 
+
+                    <label for="radio-whatsapp">
+                        <input type="radio" name="contact" id="radio-whatsapp" value="whatsapp">Whatsapp
+                    </label>
+
+                    <label for="radio-email">
+                        <input type="radio" name="contact" id="radio-email" value="email">E-mail
+                    </label>
+
+                    <label for="radio-fone">
+                        <input type="radio" name="contact" id="radio-fone" value="fone">Fone
+                    </label>
+                </div>
+
+                <label for="promocao" class="checkbox">
+                   <input type="checkbox" id="promocao"> Quero receber e-mails promocionais
+                </label>
+
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
         </main>
         <footer>
             <p>R. Pedro Gaio - SC</p>
